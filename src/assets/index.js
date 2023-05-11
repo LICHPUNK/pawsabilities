@@ -1,5 +1,5 @@
-import bars from './bars-solid.svg';
+import goodDog from './good_dog.svg';
 
-export default {
-    bars,
+export {
+    goodDog,
 }

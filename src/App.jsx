@@ -5,8 +5,8 @@ import { HomePage } from './pages'
 const App = () => {
   return (
     <div>
-        <Navbar />
-        <HomePage />
+        <Navbar className='z-50' />
+        <HomePage className='z-0' />
     </div>
   )
 }
