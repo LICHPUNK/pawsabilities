@@ -5,7 +5,7 @@ const navLinks = [
   { name: "About", href: "#about", current: false },
   { name: "Services", href: "#services", current: false },
   { name: "Rates", href: "#rates", current: false },
-  { name: "Contact Us", href: "#contact", current: false },
+  { name: "Contact", href: "#contact", current: false },
   { name: "FAQ", href: "#faq", current: false },
 ];
 
@@ -16,15 +16,15 @@ function classNames(...classes) {
 const Navbar = () => {
   const [toggle, toggleNavbar] = React.useState(false);
   return (
-    <div className='bg-[#6FA3D6] font-bold py-2 xl:px-12 sm:px-0'>
+    <div className='bg-[#6FA3D6] font-bold py-2 sm:px-0'>
       <div className="container mx-auto flex p-3 flex-col lg:flex-row items-center">
         <div className='w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start'>
-          <a className="items-center text-gray-200 mb-4 md:mb-0">
-          <span className="ml-2 text-xl cursor-pointer">Pawsabilities</span>
+          <a className="items-center text-gray-200 mx-auto md:px-4 pl-10">
+          <span className="mx-2 text-xl cursor-pointer">Pawsabilities</span>
           </a>
 
           <button
-              className='text-white cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none'
+              className='text-white cursor-pointer text-xl leading-none px-4 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none'
               type='button'
               onClick={() => toggleNavbar(!toggle)}
             >
@@ -33,7 +33,7 @@ const Navbar = () => {
         </div>
         <div
           className={
-            "lg:flex flex-grow items-center" +
+            "lg:flex flex-grow items-center w-full" +
             (toggle ? "flex" : " hidden")
           }
           id='example-navbar-danger'
@@ -47,7 +47,7 @@ const Navbar = () => {
                   link.current
                     ? "text-gray-300 hover:text-[#F9C74F]"
                     : "text-gray-200 hover:text-[#F9C74F] hover:cursor-pointer",
-                    "px-4 lg:px-10 py-2 flex items-center text-sm uppercase font-bold leading-snug"
+                    "px-4 md:px-10  py-2 flex items-center text-sm uppercase font-bold leading-snug"
                 )}
                 aria-current={link.current ? "page" : undefined}
               >
