@@ -4,7 +4,7 @@
 
 ## Description
 
-This React application is currently being modeled after an imaginary pet-servicing organization and designed for personal use and practice with React, TailwindCSS, Vite, and Framer Motion. It's publication is intended to serve as the project's version keeping and to help others understand one potential approach to responsive UI with Tailwind through example. The project may potentially be used commercially in the future after making necessary accomidations.
+This React application is currently being modeled after an imaginary pet-servicing organization and designed for personal use and practice with React, TailwindCSS, Vite, and Framer Motion. It's publication is intended to serve as the project's version keeping and to help others understand one potential approach to responsive UI with Tailwind through example; though, basic knowledge of each of the frameworks will be necessary. The project may potentially be used commercially in the future after making necessary accomidations.
 
 ## Installation
 
