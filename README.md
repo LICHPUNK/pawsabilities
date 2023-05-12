@@ -1,4 +1,5 @@
 # pawsabilities
 
 # Demo Preview (WIP)
-![Preview](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMDI4MTZhMThjNjgyOTI3ZDAxODZkZmVlMWI4OTU5OTk1NWJmZTdiMSZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/GhHLlOo31RLFPnqG2p/giphy.mp4)
+
+https://github.com/LICHPUNK/pawsabilities/assets/111394123/14f9ca54-d72d-4fdd-bfd3-5459566cacf3
