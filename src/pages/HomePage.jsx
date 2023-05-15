@@ -35,8 +35,8 @@ const HomePage = () => {
         stiffness: 100,
         bounce: 0.5,
         duration: 1,
-        staggerChildren: 0.2,
-        delayChildren: 0.1,
+        staggerChildren: 0.1,
+        delayChildren: 0.2,
       },
     },
   };
@@ -66,9 +66,8 @@ const HomePage = () => {
 
   
   return (
-    // Create a section with a background gradient and motion animation properties
+    // Motion section container
     <motion.section
-      className="text-gray-600 body-font bg-gradient-to-r from-[#2d425c] to-[#1F2D3D]"
       variants={containerVariants}
       initial="hidden"
       animate="visible"
