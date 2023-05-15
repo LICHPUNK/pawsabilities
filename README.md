@@ -4,7 +4,7 @@
 
 ## Description
 
-This React application is currently being modeled after an imaginary pet-servicing organization and is designed for personal use and practice with **React**, **TailwindCSS**, **Vite**, and **Framer Motion**. It's publication is intended to serve as the project's means of version keeping and to help others understand one approach to responsive UI with Tailwind; though, basic knowledge of each of the frameworks will be necessary. The project has the potential to be used commercially in the future after making necessary accomidations, be sure to read [LICENSE.md](https://github.com/LICHPUNK/pawsabilities/blob/main/LICENSE.md).
+This React application is currently being modeled after an imaginary pet-servicing organization and is designed for personal use and practice with **React**, **TailwindCSS**, **Vite**, and **Framer Motion**. It's publication is intended to serve as the project's means of version keeping and to help others understand one approach to responsive UI with Tailwind; though, basic knowledge of each of the frameworks will be necessary. The project has the potential to be used commercially in the future after making necessary accomidations, be sure to read the [LICENSE.md](https://github.com/LICHPUNK/pawsabilities/blob/main/LICENSE.md).
 
 ## Installation
 
